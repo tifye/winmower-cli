@@ -100,7 +100,7 @@ func initTifAppConfig() {
 		panic(err)
 	}
 
-	viper.Set("ApiKey", "224e94f74e9841c388f255f10ae60c4f")
+	viper.Set("ApiKey", "")
 	viper.Set("AccessToken", "")
 	viper.Set("x-api-key", "fruit-pie")
 	// encryptedProfile := tViper.GetString("Profile")
